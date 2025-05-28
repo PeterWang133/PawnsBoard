@@ -1,0 +1,9138 @@
+[Before placing FillFirst3 at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: FillFirst3 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+[After placing FillFirst3]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+[Before next strategy move (influenced board)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+[Before placing card from strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 1
+-> Card placed: FillFirst2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 R_R_1 0
+0 1_1_1 0
+0 1___1 0
+
+[After placing card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+[Before placing FillFirst4 at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 1
+-> Card placed: FillFirst4 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+2 R_R_1 0
+1 R_2_1 0
+0 1_1_1 0
+
+[After placing FillFirst4]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+1 R_2_1 0
+0 1_1_1 0
+
+
+[Before final strategy move with insufficient pawns]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+1 R_2_1 0
+0 1_1_1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+[After final strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+1 R_2_1 0
+0 1_1_1 0
+
+
+
+---------------------------------
+
+[Before strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 0
+-> Card placed: FillFirst with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+getCellAt(0,0)
+addPawn() at (0,0) by RED with 3 pawns
+[Before placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 3___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,1)
+addPawn() at (0,1) by RED with 3 pawns
+[Before placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R3__1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 RR__1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 RR__1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,2)
+addPawn() at (0,2) by RED with 3 pawns
+[Before placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 RR3_1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+3 RRR_1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=3}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+3 RRR_1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,3)
+addPawn() at (0,3) by RED with 3 pawns
+[Before placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=3}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+3 RRR31 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+4 RRRR1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=4}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+4 RRRR1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,4)
+addPawn() at (0,4) by RED with 3 pawns
+[Before placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=4}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+4 RRRR3 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,0)
+addPawn() at (1,0) by RED with 3 pawns
+[Before placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+0 3___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+1 R___1 0
+0 1___1 0
+
+[After placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+1 R___1 0
+0 1___1 0
+
+
+getCellAt(1,1)
+addPawn() at (1,1) by RED with 3 pawns
+[Before placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+1 R3__1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+2 RR__1 0
+0 1___1 0
+
+[After placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=2}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+2 RR__1 0
+0 1___1 0
+
+
+getCellAt(1,2)
+addPawn() at (1,2) by RED with 3 pawns
+[Before placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=2}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+2 RR3_1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+3 RRR_1 0
+0 1___1 0
+
+[After placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=3}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+3 RRR_1 0
+0 1___1 0
+
+
+getCellAt(1,3)
+addPawn() at (1,3) by RED with 3 pawns
+[Before placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=3}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+3 RRR31 0
+0 1___1 0
+
+
+placeCard() by RED at (1,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+4 RRRR1 0
+0 1___1 0
+
+[After placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=4}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+4 RRRR1 0
+0 1___1 0
+
+
+getCellAt(1,4)
+addPawn() at (1,4) by RED with 3 pawns
+[Before placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=4}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+4 RRRR3 0
+0 1___1 0
+
+
+placeCard() by RED at (1,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+0 1___1 0
+
+[After placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+5 RRRRR 0
+0 1___1 0
+
+
+getCellAt(2,0)
+addPawn() at (2,0) by RED with 3 pawns
+[Before placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+5 RRRRR 0
+0 3___1 0
+
+
+placeCard() by RED at (2,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+1 R___1 0
+
+[After placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=1}
+5 RRRRR 0
+5 RRRRR 0
+1 R___1 0
+
+
+getCellAt(2,1)
+addPawn() at (2,1) by RED with 3 pawns
+[Before placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=1}
+5 RRRRR 0
+5 RRRRR 0
+1 R3__1 0
+
+
+placeCard() by RED at (2,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+2 RR__1 0
+
+[After placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=2}
+5 RRRRR 0
+5 RRRRR 0
+2 RR__1 0
+
+
+getCellAt(2,2)
+addPawn() at (2,2) by RED with 3 pawns
+[Before placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=2}
+5 RRRRR 0
+5 RRRRR 0
+2 RR3_1 0
+
+
+placeCard() by RED at (2,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+3 RRR_1 0
+
+[After placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=3}
+5 RRRRR 0
+5 RRRRR 0
+3 RRR_1 0
+
+
+getCellAt(2,3)
+addPawn() at (2,3) by RED with 3 pawns
+[Before placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=3}
+5 RRRRR 0
+5 RRRRR 0
+3 RRR31 0
+
+
+placeCard() by RED at (2,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+4 RRRR1 0
+
+[After placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=4}
+5 RRRRR 0
+5 RRRRR 0
+4 RRRR1 0
+
+
+[Before strategy move on nearly full board]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=4}
+5 RRRRR 0
+5 RRRRR 0
+4 RRRR1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move (should be pass)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=4}
+5 RRRRR 0
+5 RRRRR 0
+4 RRRR1 0
+
+
+
+---------------------------------
+
+[Before strategy move (insufficient pawns)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+
+[Before placing FillFirst3 at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: FillFirst3 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+[After placing FillFirst3]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+[Before next strategy move (influenced board)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+[Before placing card from strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 1
+-> Card placed: FillFirst2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 R_R_1 0
+0 1_1_1 0
+0 1___1 0
+
+[After placing card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+[Before placing FillFirst4 at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 1
+-> Card placed: FillFirst4 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+2 R_R_1 0
+1 R_2_1 0
+0 1_1_1 0
+
+[After placing FillFirst4]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+1 R_2_1 0
+0 1_1_1 0
+
+
+[Before final strategy move with insufficient pawns]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+1 R_2_1 0
+0 1_1_1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+[After final strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+1 R_2_1 0
+0 1_1_1 0
+
+
+
+---------------------------------
+
+[Before strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 0
+-> Card placed: FillFirst with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+getCellAt(0,0)
+addPawn() at (0,0) by RED with 3 pawns
+[Before placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 3___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,1)
+addPawn() at (0,1) by RED with 3 pawns
+[Before placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R3__1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 RR__1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 RR__1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,2)
+addPawn() at (0,2) by RED with 3 pawns
+[Before placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 RR3_1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+3 RRR_1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=3}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+3 RRR_1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,3)
+addPawn() at (0,3) by RED with 3 pawns
+[Before placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=3}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+3 RRR31 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+4 RRRR1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=4}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+4 RRRR1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,4)
+addPawn() at (0,4) by RED with 3 pawns
+[Before placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=4}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+4 RRRR3 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,0)
+addPawn() at (1,0) by RED with 3 pawns
+[Before placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+0 3___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+1 R___1 0
+0 1___1 0
+
+[After placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+1 R___1 0
+0 1___1 0
+
+
+getCellAt(1,1)
+addPawn() at (1,1) by RED with 3 pawns
+[Before placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+1 R3__1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+2 RR__1 0
+0 1___1 0
+
+[After placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=2}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+2 RR__1 0
+0 1___1 0
+
+
+getCellAt(1,2)
+addPawn() at (1,2) by RED with 3 pawns
+[Before placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=2}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+2 RR3_1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+3 RRR_1 0
+0 1___1 0
+
+[After placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=3}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+3 RRR_1 0
+0 1___1 0
+
+
+getCellAt(1,3)
+addPawn() at (1,3) by RED with 3 pawns
+[Before placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=3}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+3 RRR31 0
+0 1___1 0
+
+
+placeCard() by RED at (1,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+4 RRRR1 0
+0 1___1 0
+
+[After placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=4}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+4 RRRR1 0
+0 1___1 0
+
+
+getCellAt(1,4)
+addPawn() at (1,4) by RED with 3 pawns
+[Before placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=4}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+4 RRRR3 0
+0 1___1 0
+
+
+placeCard() by RED at (1,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+0 1___1 0
+
+[After placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+5 RRRRR 0
+0 1___1 0
+
+
+getCellAt(2,0)
+addPawn() at (2,0) by RED with 3 pawns
+[Before placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+5 RRRRR 0
+0 3___1 0
+
+
+placeCard() by RED at (2,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+1 R___1 0
+
+[After placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=1}
+5 RRRRR 0
+5 RRRRR 0
+1 R___1 0
+
+
+getCellAt(2,1)
+addPawn() at (2,1) by RED with 3 pawns
+[Before placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=1}
+5 RRRRR 0
+5 RRRRR 0
+1 R3__1 0
+
+
+placeCard() by RED at (2,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+2 RR__1 0
+
+[After placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=2}
+5 RRRRR 0
+5 RRRRR 0
+2 RR__1 0
+
+
+getCellAt(2,2)
+addPawn() at (2,2) by RED with 3 pawns
+[Before placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=2}
+5 RRRRR 0
+5 RRRRR 0
+2 RR3_1 0
+
+
+placeCard() by RED at (2,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+3 RRR_1 0
+
+[After placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=3}
+5 RRRRR 0
+5 RRRRR 0
+3 RRR_1 0
+
+
+getCellAt(2,3)
+addPawn() at (2,3) by RED with 3 pawns
+[Before placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=3}
+5 RRRRR 0
+5 RRRRR 0
+3 RRR31 0
+
+
+placeCard() by RED at (2,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+4 RRRR1 0
+
+[After placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=4}
+5 RRRRR 0
+5 RRRRR 0
+4 RRRR1 0
+
+
+[Before strategy move on nearly full board]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=4}
+5 RRRRR 0
+5 RRRRR 0
+4 RRRR1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move (should be pass)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=4}
+5 RRRRR 0
+5 RRRRR 0
+4 RRRR1 0
+
+
+
+---------------------------------
+
+[Before strategy move (insufficient pawns)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+
+[Before placing FillFirst3 at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: FillFirst3 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+[After placing FillFirst3]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+[Before next strategy move (influenced board)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+[Before placing card from strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 1
+-> Card placed: FillFirst2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 R_R_1 0
+0 1_1_1 0
+0 1___1 0
+
+[After placing card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+[Before placing FillFirst4 at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 1
+-> Card placed: FillFirst4 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+2 R_R_1 0
+1 R_2_1 0
+0 1_1_1 0
+
+[After placing FillFirst4]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+1 R_2_1 0
+0 1_1_1 0
+
+
+[Before final strategy move with insufficient pawns]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+1 R_2_1 0
+0 1_1_1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+[After final strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+1 R_2_1 0
+0 1_1_1 0
+
+
+
+---------------------------------
+
+[Before strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 0
+-> Card placed: FillFirst with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+getCellAt(0,0)
+addPawn() at (0,0) by RED with 3 pawns
+[Before placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 3___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,1)
+addPawn() at (0,1) by RED with 3 pawns
+[Before placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R3__1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 RR__1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 RR__1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,2)
+addPawn() at (0,2) by RED with 3 pawns
+[Before placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 RR3_1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+3 RRR_1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=3}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+3 RRR_1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,3)
+addPawn() at (0,3) by RED with 3 pawns
+[Before placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=3}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+3 RRR31 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+4 RRRR1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=4}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+4 RRRR1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,4)
+addPawn() at (0,4) by RED with 3 pawns
+[Before placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=4}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+4 RRRR3 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,0)
+addPawn() at (1,0) by RED with 3 pawns
+[Before placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+0 3___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+1 R___1 0
+0 1___1 0
+
+[After placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+1 R___1 0
+0 1___1 0
+
+
+getCellAt(1,1)
+addPawn() at (1,1) by RED with 3 pawns
+[Before placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+1 R3__1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+2 RR__1 0
+0 1___1 0
+
+[After placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=2}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+2 RR__1 0
+0 1___1 0
+
+
+getCellAt(1,2)
+addPawn() at (1,2) by RED with 3 pawns
+[Before placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=2}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+2 RR3_1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+3 RRR_1 0
+0 1___1 0
+
+[After placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=3}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+3 RRR_1 0
+0 1___1 0
+
+
+getCellAt(1,3)
+addPawn() at (1,3) by RED with 3 pawns
+[Before placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=3}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+3 RRR31 0
+0 1___1 0
+
+
+placeCard() by RED at (1,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+4 RRRR1 0
+0 1___1 0
+
+[After placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=4}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+4 RRRR1 0
+0 1___1 0
+
+
+getCellAt(1,4)
+addPawn() at (1,4) by RED with 3 pawns
+[Before placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=4}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+4 RRRR3 0
+0 1___1 0
+
+
+placeCard() by RED at (1,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+0 1___1 0
+
+[After placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+5 RRRRR 0
+0 1___1 0
+
+
+getCellAt(2,0)
+addPawn() at (2,0) by RED with 3 pawns
+[Before placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+5 RRRRR 0
+0 3___1 0
+
+
+placeCard() by RED at (2,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+1 R___1 0
+
+[After placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=1}
+5 RRRRR 0
+5 RRRRR 0
+1 R___1 0
+
+
+getCellAt(2,1)
+addPawn() at (2,1) by RED with 3 pawns
+[Before placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=1}
+5 RRRRR 0
+5 RRRRR 0
+1 R3__1 0
+
+
+placeCard() by RED at (2,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+2 RR__1 0
+
+[After placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=2}
+5 RRRRR 0
+5 RRRRR 0
+2 RR__1 0
+
+
+getCellAt(2,2)
+addPawn() at (2,2) by RED with 3 pawns
+[Before placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=2}
+5 RRRRR 0
+5 RRRRR 0
+2 RR3_1 0
+
+
+placeCard() by RED at (2,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+3 RRR_1 0
+
+[After placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=3}
+5 RRRRR 0
+5 RRRRR 0
+3 RRR_1 0
+
+
+getCellAt(2,3)
+addPawn() at (2,3) by RED with 3 pawns
+[Before placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=3}
+5 RRRRR 0
+5 RRRRR 0
+3 RRR31 0
+
+
+placeCard() by RED at (2,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+4 RRRR1 0
+
+[After placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=4}
+5 RRRRR 0
+5 RRRRR 0
+4 RRRR1 0
+
+
+[Before strategy move on nearly full board]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=4}
+5 RRRRR 0
+5 RRRRR 0
+4 RRRR1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move (should be pass)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=4}
+5 RRRRR 0
+5 RRRRR 0
+4 RRRR1 0
+
+
+
+---------------------------------
+
+[Before strategy move (insufficient pawns)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+
+[Before placing FillFirst3 at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: FillFirst3 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+[After placing FillFirst3]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+[Before next strategy move (influenced board)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+[Before placing card from strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R_1_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 1
+-> Card placed: FillFirst2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 R_R_1 0
+0 1_1_1 0
+0 1___1 0
+
+[After placing card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+[Before placing FillFirst4 at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+0 1_1_1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 1
+-> Card placed: FillFirst4 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+2 R_R_1 0
+1 R_2_1 0
+0 1_1_1 0
+
+[After placing FillFirst4]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+1 R_2_1 0
+0 1_1_1 0
+
+
+[Before final strategy move with insufficient pawns]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+1 R_2_1 0
+0 1_1_1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+[After final strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+2 R_R_1 0
+1 R_2_1 0
+0 1_1_1 0
+
+
+
+---------------------------------
+
+[Before strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 0
+-> Card placed: FillFirst with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+getCellAt(0,0)
+addPawn() at (0,0) by RED with 3 pawns
+[Before placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 3___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,1)
+addPawn() at (0,1) by RED with 3 pawns
+[Before placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R3__1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 RR__1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 RR__1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,2)
+addPawn() at (0,2) by RED with 3 pawns
+[Before placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 RR3_1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+3 RRR_1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=3}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+3 RRR_1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,3)
+addPawn() at (0,3) by RED with 3 pawns
+[Before placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=3}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+3 RRR31 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+4 RRRR1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=4}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+4 RRRR1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,4)
+addPawn() at (0,4) by RED with 3 pawns
+[Before placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=4}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+4 RRRR3 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,0)
+addPawn() at (1,0) by RED with 3 pawns
+[Before placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+0 3___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+1 R___1 0
+0 1___1 0
+
+[After placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+1 R___1 0
+0 1___1 0
+
+
+getCellAt(1,1)
+addPawn() at (1,1) by RED with 3 pawns
+[Before placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=1}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+1 R3__1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+2 RR__1 0
+0 1___1 0
+
+[After placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=2}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+2 RR__1 0
+0 1___1 0
+
+
+getCellAt(1,2)
+addPawn() at (1,2) by RED with 3 pawns
+[Before placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=2}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+2 RR3_1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+3 RRR_1 0
+0 1___1 0
+
+[After placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=3}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+3 RRR_1 0
+0 1___1 0
+
+
+getCellAt(1,3)
+addPawn() at (1,3) by RED with 3 pawns
+[Before placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=3}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+3 RRR31 0
+0 1___1 0
+
+
+placeCard() by RED at (1,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+4 RRRR1 0
+0 1___1 0
+
+[After placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=4}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+4 RRRR1 0
+0 1___1 0
+
+
+getCellAt(1,4)
+addPawn() at (1,4) by RED with 3 pawns
+[Before placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=4}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+4 RRRR3 0
+0 1___1 0
+
+
+placeCard() by RED at (1,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+0 1___1 0
+
+[After placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+5 RRRRR 0
+0 1___1 0
+
+
+getCellAt(2,0)
+addPawn() at (2,0) by RED with 3 pawns
+[Before placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=0}
+5 RRRRR 0
+5 RRRRR 0
+0 3___1 0
+
+
+placeCard() by RED at (2,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+1 R___1 0
+
+[After placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=1}
+5 RRRRR 0
+5 RRRRR 0
+1 R___1 0
+
+
+getCellAt(2,1)
+addPawn() at (2,1) by RED with 3 pawns
+[Before placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=1}
+5 RRRRR 0
+5 RRRRR 0
+1 R3__1 0
+
+
+placeCard() by RED at (2,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+2 RR__1 0
+
+[After placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=2}
+5 RRRRR 0
+5 RRRRR 0
+2 RR__1 0
+
+
+getCellAt(2,2)
+addPawn() at (2,2) by RED with 3 pawns
+[Before placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=2}
+5 RRRRR 0
+5 RRRRR 0
+2 RR3_1 0
+
+
+placeCard() by RED at (2,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+3 RRR_1 0
+
+[After placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=3}
+5 RRRRR 0
+5 RRRRR 0
+3 RRR_1 0
+
+
+getCellAt(2,3)
+addPawn() at (2,3) by RED with 3 pawns
+[Before placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=3}
+5 RRRRR 0
+5 RRRRR 0
+3 RRR31 0
+
+
+placeCard() by RED at (2,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 RRRRR 0
+5 RRRRR 0
+4 RRRR1 0
+
+[After placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=4}
+5 RRRRR 0
+5 RRRRR 0
+4 RRRR1 0
+
+
+[Before strategy move on nearly full board]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=4}
+5 RRRRR 0
+5 RRRRR 0
+4 RRRR1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move (should be pass)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=5}
+Row 2 scores: {BLUE=0, RED=4}
+5 RRRRR 0
+5 RRRRR 0
+4 RRRR1 0
+
+
+
+---------------------------------
+
+[Before strategy move (insufficient pawns)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+
+[Before placing FillFirst3 at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: FillFirst3 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing FillFirst3]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before next strategy move (influenced board)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing card from strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 1
+-> Card placed: FillFirst2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing FillFirst4 at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 1
+-> Card placed: FillFirst4 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing FillFirst4]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before final strategy move with insufficient pawns]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+[After final strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+[Before strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 0
+-> Card placed: FillFirst with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+getCellAt(0,0)
+addPawn() at (0,0) by RED with 3 pawns
+[Before placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,1)
+addPawn() at (0,1) by RED with 3 pawns
+[Before placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,2)
+addPawn() at (0,2) by RED with 3 pawns
+[Before placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,3)
+addPawn() at (0,3) by RED with 3 pawns
+[Before placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,4)
+addPawn() at (0,4) by RED with 3 pawns
+[Before placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,0)
+addPawn() at (1,0) by RED with 3 pawns
+[Before placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,1)
+addPawn() at (1,1) by RED with 3 pawns
+[Before placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,2)
+addPawn() at (1,2) by RED with 3 pawns
+[Before placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,3)
+addPawn() at (1,3) by RED with 3 pawns
+[Before placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,4)
+addPawn() at (1,4) by RED with 3 pawns
+[Before placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,0)
+addPawn() at (2,0) by RED with 3 pawns
+[Before placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,1)
+addPawn() at (2,1) by RED with 3 pawns
+[Before placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,2)
+addPawn() at (2,2) by RED with 3 pawns
+[Before placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,3)
+addPawn() at (2,3) by RED with 3 pawns
+[Before placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before strategy move on nearly full board]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move (should be pass)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+[Before strategy move (insufficient pawns)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+
+[Before placing FillFirst3 at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: FillFirst3 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing FillFirst3]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before next strategy move (influenced board)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing card from strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 1
+-> Card placed: FillFirst2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing FillFirst4 at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 1
+-> Card placed: FillFirst4 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing FillFirst4]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before final strategy move with insufficient pawns]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+[After final strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+[Before strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 0
+-> Card placed: FillFirst with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+getCellAt(0,0)
+addPawn() at (0,0) by RED with 3 pawns
+[Before placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,1)
+addPawn() at (0,1) by RED with 3 pawns
+[Before placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,2)
+addPawn() at (0,2) by RED with 3 pawns
+[Before placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,3)
+addPawn() at (0,3) by RED with 3 pawns
+[Before placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,4)
+addPawn() at (0,4) by RED with 3 pawns
+[Before placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,0)
+addPawn() at (1,0) by RED with 3 pawns
+[Before placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,1)
+addPawn() at (1,1) by RED with 3 pawns
+[Before placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,2)
+addPawn() at (1,2) by RED with 3 pawns
+[Before placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,3)
+addPawn() at (1,3) by RED with 3 pawns
+[Before placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,4)
+addPawn() at (1,4) by RED with 3 pawns
+[Before placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,0)
+addPawn() at (2,0) by RED with 3 pawns
+[Before placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,1)
+addPawn() at (2,1) by RED with 3 pawns
+[Before placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,2)
+addPawn() at (2,2) by RED with 3 pawns
+[Before placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,3)
+addPawn() at (2,3) by RED with 3 pawns
+[Before placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before strategy move on nearly full board]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move (should be pass)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+[Before strategy move (insufficient pawns)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+
+[Before placing FillFirst3 at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: FillFirst3 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing FillFirst3]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before next strategy move (influenced board)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing card from strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 1
+-> Card placed: FillFirst2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing FillFirst4 at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 1
+-> Card placed: FillFirst4 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing FillFirst4]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before final strategy move with insufficient pawns]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+[After final strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+[Before strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 0
+-> Card placed: FillFirst with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+getCellAt(0,0)
+addPawn() at (0,0) by RED with 3 pawns
+[Before placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,1)
+addPawn() at (0,1) by RED with 3 pawns
+[Before placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,2)
+addPawn() at (0,2) by RED with 3 pawns
+[Before placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,3)
+addPawn() at (0,3) by RED with 3 pawns
+[Before placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,4)
+addPawn() at (0,4) by RED with 3 pawns
+[Before placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,0)
+addPawn() at (1,0) by RED with 3 pawns
+[Before placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,1)
+addPawn() at (1,1) by RED with 3 pawns
+[Before placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,2)
+addPawn() at (1,2) by RED with 3 pawns
+[Before placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,3)
+addPawn() at (1,3) by RED with 3 pawns
+[Before placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,4)
+addPawn() at (1,4) by RED with 3 pawns
+[Before placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,0)
+addPawn() at (2,0) by RED with 3 pawns
+[Before placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,1)
+addPawn() at (2,1) by RED with 3 pawns
+[Before placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,2)
+addPawn() at (2,2) by RED with 3 pawns
+[Before placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,3)
+addPawn() at (2,3) by RED with 3 pawns
+[Before placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before strategy move on nearly full board]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move (should be pass)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+[Before strategy move (insufficient pawns)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+
+[Before placing FillFirst3 at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: FillFirst3 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing FillFirst3]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before next strategy move (influenced board)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing card from strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 1
+-> Card placed: FillFirst2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing FillFirst4 at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 1
+-> Card placed: FillFirst4 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing FillFirst4]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before final strategy move with insufficient pawns]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+[After final strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+[Before strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 0
+-> Card placed: FillFirst with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+getCellAt(0,0)
+addPawn() at (0,0) by RED with 3 pawns
+[Before placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,1)
+addPawn() at (0,1) by RED with 3 pawns
+[Before placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,2)
+addPawn() at (0,2) by RED with 3 pawns
+[Before placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,3)
+addPawn() at (0,3) by RED with 3 pawns
+[Before placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,4)
+addPawn() at (0,4) by RED with 3 pawns
+[Before placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,0)
+addPawn() at (1,0) by RED with 3 pawns
+[Before placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,1)
+addPawn() at (1,1) by RED with 3 pawns
+[Before placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,2)
+addPawn() at (1,2) by RED with 3 pawns
+[Before placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,3)
+addPawn() at (1,3) by RED with 3 pawns
+[Before placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,4)
+addPawn() at (1,4) by RED with 3 pawns
+[Before placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,0)
+addPawn() at (2,0) by RED with 3 pawns
+[Before placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,1)
+addPawn() at (2,1) by RED with 3 pawns
+[Before placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,2)
+addPawn() at (2,2) by RED with 3 pawns
+[Before placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,3)
+addPawn() at (2,3) by RED with 3 pawns
+[Before placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before strategy move on nearly full board]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move (should be pass)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+[Before strategy move (insufficient pawns)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+
+[Before placing FillFirst3 at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: FillFirst3 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing FillFirst3]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before next strategy move (influenced board)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing card from strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 1
+-> Card placed: FillFirst2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing FillFirst4 at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 1
+-> Card placed: FillFirst4 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, I], [X, X, X, X, I], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing FillFirst4]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before final strategy move with insufficient pawns]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+[After final strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+[Before strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 0
+-> Card placed: FillFirst with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing selected card]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+getCellAt(0,0)
+addPawn() at (0,0) by RED with 3 pawns
+[Before placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,1)
+addPawn() at (0,1) by RED with 3 pawns
+[Before placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,2)
+addPawn() at (0,2) by RED with 3 pawns
+[Before placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,3)
+addPawn() at (0,3) by RED with 3 pawns
+[Before placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(0,4)
+addPawn() at (0,4) by RED with 3 pawns
+[Before placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (0,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,0)
+addPawn() at (1,0) by RED with 3 pawns
+[Before placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,1)
+addPawn() at (1,1) by RED with 3 pawns
+[Before placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,2)
+addPawn() at (1,2) by RED with 3 pawns
+[Before placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,3)
+addPawn() at (1,3) by RED with 3 pawns
+[Before placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(1,4)
+addPawn() at (1,4) by RED with 3 pawns
+[Before placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (1,4) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (1,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,0)
+addPawn() at (2,0) by RED with 3 pawns
+[Before placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,0) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,0)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,1)
+addPawn() at (2,1) by RED with 3 pawns
+[Before placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,1) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,1)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,2)
+addPawn() at (2,2) by RED with 3 pawns
+[Before placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,2) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,2)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getCellAt(2,3)
+addPawn() at (2,3) by RED with 3 pawns
+[Before placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (2,3) using card index 2
+-> Card placed: Dummy with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+[After placing card at (2,3)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+[Before strategy move on nearly full board]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move (should be pass)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+addPawn() at (0,0) by BLUE with 0 pawns
+getWidth()
+getCellAt(0,1)
+addPawn() at (0,1) by BLUE with 0 pawns
+getWidth()
+getCellAt(0,2)
+addPawn() at (0,2) by BLUE with 0 pawns
+getWidth()
+getCellAt(0,3)
+addPawn() at (0,3) by BLUE with 0 pawns
+getWidth()
+getCellAt(0,4)
+addPawn() at (0,4) by BLUE with 0 pawns
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+addPawn() at (1,0) by BLUE with 0 pawns
+getWidth()
+getCellAt(1,1)
+addPawn() at (1,1) by BLUE with 0 pawns
+getWidth()
+getCellAt(1,2)
+addPawn() at (1,2) by BLUE with 0 pawns
+getWidth()
+getCellAt(1,3)
+addPawn() at (1,3) by BLUE with 0 pawns
+getWidth()
+getCellAt(1,4)
+addPawn() at (1,4) by BLUE with 0 pawns
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+addPawn() at (2,0) by BLUE with 0 pawns
+getWidth()
+getCellAt(2,1)
+addPawn() at (2,1) by BLUE with 0 pawns
+getWidth()
+getCellAt(2,2)
+addPawn() at (2,2) by BLUE with 0 pawns
+getWidth()
+getCellAt(2,3)
+addPawn() at (2,3) by BLUE with 0 pawns
+getWidth()
+getCellAt(2,4)
+addPawn() at (2,4) by BLUE with 0 pawns
+getWidth()
+getHeight()
+getCellAt(2,4)
+addPawn() at (2,4) by RED with 2 pawns
+[Before strategy move (only legal cell at 2,4)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+---------------------------------
+
+[Before strategy move (insufficient pawns)]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+[After strategy move]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+

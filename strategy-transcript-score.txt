@@ -1,0 +1,4851 @@
+---------------------------------
+[RED plays a low-value card in row 0 to begin contest]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedLow with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[Board state after RED plays low card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueHigh with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE plays a high-value card in the same row to win it]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED preparing to respond with MaximizeRowScoreStrategy]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy selects the best move to regain lead in a contested row]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED has only one unaffordable card in hand]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getCard() at (1,1)
+getCellAt(1,1)
+getOwner() at (1,1)
+getCellAt(1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getCard() at (1,2)
+getCellAt(1,2)
+getOwner() at (1,2)
+getCellAt(1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getCard() at (1,3)
+getCellAt(1,3)
+getOwner() at (1,3)
+getCellAt(1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getCard() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getWidth()
+getHeight()
+getRowScores(2)
+getWidth()
+getCellAt(2,0)
+getCard() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getCard() at (2,1)
+getCellAt(2,1)
+getOwner() at (2,1)
+getCellAt(2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getCard() at (2,2)
+getCellAt(2,2)
+getOwner() at (2,2)
+getCellAt(2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getCard() at (2,3)
+getCellAt(2,3)
+getOwner() at (2,3)
+getCellAt(2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getCard() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+---------------------------------
+[Strategy detects no valid moves and opts to pass]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedVal2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED places a moderate card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueVal5 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE overpowers RED in the same row]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED must now avoid the losing row and fallback to another]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy chooses a fallback row when no clear win is possible]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedBig with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED plays a strong card and secures row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED's turn again with row 0 already secured]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy avoids wasting resources on a row already won]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED plays a low-value card in row 0 to begin contest]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedLow with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[Board state after RED plays low card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueHigh with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE plays a high-value card in the same row to win it]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED preparing to respond with MaximizeRowScoreStrategy]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy selects the best move to regain lead in a contested row]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED has only one unaffordable card in hand]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getCard() at (1,1)
+getCellAt(1,1)
+getOwner() at (1,1)
+getCellAt(1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getCard() at (1,2)
+getCellAt(1,2)
+getOwner() at (1,2)
+getCellAt(1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getCard() at (1,3)
+getCellAt(1,3)
+getOwner() at (1,3)
+getCellAt(1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getCard() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getWidth()
+getHeight()
+getRowScores(2)
+getWidth()
+getCellAt(2,0)
+getCard() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getCard() at (2,1)
+getCellAt(2,1)
+getOwner() at (2,1)
+getCellAt(2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getCard() at (2,2)
+getCellAt(2,2)
+getOwner() at (2,2)
+getCellAt(2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getCard() at (2,3)
+getCellAt(2,3)
+getOwner() at (2,3)
+getCellAt(2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getCard() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+---------------------------------
+[Strategy detects no valid moves and opts to pass]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedVal2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED places a moderate card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueVal5 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE overpowers RED in the same row]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED must now avoid the losing row and fallback to another]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy chooses a fallback row when no clear win is possible]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedBig with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED plays a strong card and secures row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED's turn again with row 0 already secured]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy avoids wasting resources on a row already won]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED plays a low-value card in row 0 to begin contest]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedLow with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[Board state after RED plays low card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueHigh with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE plays a high-value card in the same row to win it]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED preparing to respond with MaximizeRowScoreStrategy]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy selects the best move to regain lead in a contested row]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED has only one unaffordable card in hand]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getCard() at (1,1)
+getCellAt(1,1)
+getOwner() at (1,1)
+getCellAt(1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getCard() at (1,2)
+getCellAt(1,2)
+getOwner() at (1,2)
+getCellAt(1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getCard() at (1,3)
+getCellAt(1,3)
+getOwner() at (1,3)
+getCellAt(1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getCard() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getWidth()
+getHeight()
+getRowScores(2)
+getWidth()
+getCellAt(2,0)
+getCard() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getCard() at (2,1)
+getCellAt(2,1)
+getOwner() at (2,1)
+getCellAt(2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getCard() at (2,2)
+getCellAt(2,2)
+getOwner() at (2,2)
+getCellAt(2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getCard() at (2,3)
+getCellAt(2,3)
+getOwner() at (2,3)
+getCellAt(2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getCard() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+---------------------------------
+[Strategy detects no valid moves and opts to pass]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedVal2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED places a moderate card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueVal5 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE overpowers RED in the same row]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED must now avoid the losing row and fallback to another]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy chooses a fallback row when no clear win is possible]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedBig with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED plays a strong card and secures row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED's turn again with row 0 already secured]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy avoids wasting resources on a row already won]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED plays a low-value card in row 0 to begin contest]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedLow with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[Board state after RED plays low card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueHigh with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE plays a high-value card in the same row to win it]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED preparing to respond with MaximizeRowScoreStrategy]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy selects the best move to regain lead in a contested row]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED has only one unaffordable card in hand]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getCard() at (1,1)
+getCellAt(1,1)
+getOwner() at (1,1)
+getCellAt(1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getCard() at (1,2)
+getCellAt(1,2)
+getOwner() at (1,2)
+getCellAt(1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getCard() at (1,3)
+getCellAt(1,3)
+getOwner() at (1,3)
+getCellAt(1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getCard() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getWidth()
+getHeight()
+getRowScores(2)
+getWidth()
+getCellAt(2,0)
+getCard() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getCard() at (2,1)
+getCellAt(2,1)
+getOwner() at (2,1)
+getCellAt(2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getCard() at (2,2)
+getCellAt(2,2)
+getOwner() at (2,2)
+getCellAt(2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getCard() at (2,3)
+getCellAt(2,3)
+getOwner() at (2,3)
+getCellAt(2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getCard() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+---------------------------------
+[Strategy detects no valid moves and opts to pass]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedVal2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED places a moderate card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueVal5 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE overpowers RED in the same row]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED must now avoid the losing row and fallback to another]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy chooses a fallback row when no clear win is possible]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedBig with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED plays a strong card and secures row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED's turn again with row 0 already secured]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy avoids wasting resources on a row already won]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED plays a low-value card in row 0 to begin contest]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedLow with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[Board state after RED plays low card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueHigh with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE plays a high-value card in the same row to win it]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED preparing to respond with MaximizeRowScoreStrategy]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy selects the best move to regain lead in a contested row]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED has only one unaffordable card in hand]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getCard() at (1,1)
+getCellAt(1,1)
+getOwner() at (1,1)
+getCellAt(1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getCard() at (1,2)
+getCellAt(1,2)
+getOwner() at (1,2)
+getCellAt(1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getCard() at (1,3)
+getCellAt(1,3)
+getOwner() at (1,3)
+getCellAt(1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getCard() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getWidth()
+getHeight()
+getRowScores(2)
+getWidth()
+getCellAt(2,0)
+getCard() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getCard() at (2,1)
+getCellAt(2,1)
+getOwner() at (2,1)
+getCellAt(2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getCard() at (2,2)
+getCellAt(2,2)
+getOwner() at (2,2)
+getCellAt(2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getCard() at (2,3)
+getCellAt(2,3)
+getOwner() at (2,3)
+getCellAt(2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getCard() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+---------------------------------
+[Strategy detects no valid moves and opts to pass]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedVal2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED places a moderate card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueVal5 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE overpowers RED in the same row]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED must now avoid the losing row and fallback to another]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy chooses a fallback row when no clear win is possible]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedBig with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED plays a strong card and secures row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED's turn again with row 0 already secured]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy avoids wasting resources on a row already won]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED plays a low-value card in row 0 to begin contest]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedLow with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[Board state after RED plays low card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueHigh with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE plays a high-value card in the same row to win it]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED preparing to respond with MaximizeRowScoreStrategy]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy selects the best move to regain lead in a contested row]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=4, RED=1}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+1 R___B 4
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED has only one unaffordable card in hand]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getCard() at (1,1)
+getCellAt(1,1)
+getOwner() at (1,1)
+getCellAt(1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getCard() at (1,2)
+getCellAt(1,2)
+getOwner() at (1,2)
+getCellAt(1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getCard() at (1,3)
+getCellAt(1,3)
+getOwner() at (1,3)
+getCellAt(1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getCard() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getWidth()
+getHeight()
+getRowScores(2)
+getWidth()
+getCellAt(2,0)
+getCard() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getCard() at (2,1)
+getCellAt(2,1)
+getOwner() at (2,1)
+getCellAt(2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getCard() at (2,2)
+getCellAt(2,2)
+getOwner() at (2,2)
+getCellAt(2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getCard() at (2,3)
+getCellAt(2,3)
+getOwner() at (2,3)
+getCellAt(2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getCard() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+---------------------------------
+[Strategy detects no valid moves and opts to pass]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=0}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedVal2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED places a moderate card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueVal5 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE overpowers RED in the same row]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED must now avoid the losing row and fallback to another]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy chooses a fallback row when no clear win is possible]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=5, RED=2}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+2 R___B 5
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedBig with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED plays a strong card and secures row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED's turn again with row 0 already secured]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy avoids wasting resources on a row already won]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {BLUE=0, RED=5}
+Row 1 scores: {BLUE=0, RED=0}
+Row 2 scores: {BLUE=0, RED=0}
+5 R___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED plays a low-value card in row 0 to begin contest]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedLow with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[Board state after RED plays low card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueHigh with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE plays a high-value card in the same row to win it]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED preparing to respond with MaximizeRowScoreStrategy]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy selects the best move to regain lead in a contested row]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED has only one unaffordable card in hand]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getCard() at (1,1)
+getCellAt(1,1)
+getOwner() at (1,1)
+getCellAt(1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getCard() at (1,2)
+getCellAt(1,2)
+getOwner() at (1,2)
+getCellAt(1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getCard() at (1,3)
+getCellAt(1,3)
+getOwner() at (1,3)
+getCellAt(1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getCard() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getWidth()
+getHeight()
+getRowScores(2)
+getWidth()
+getCellAt(2,0)
+getCard() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getCard() at (2,1)
+getCellAt(2,1)
+getOwner() at (2,1)
+getCellAt(2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getCard() at (2,2)
+getCellAt(2,2)
+getOwner() at (2,2)
+getCellAt(2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getCard() at (2,3)
+getCellAt(2,3)
+getOwner() at (2,3)
+getCellAt(2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getCard() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+---------------------------------
+[Strategy detects no valid moves and opts to pass]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedVal2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED places a moderate card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueVal5 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE overpowers RED in the same row]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED must now avoid the losing row and fallback to another]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy chooses a fallback row when no clear win is possible]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedBig with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED plays a strong card and secures row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED's turn again with row 0 already secured]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy avoids wasting resources on a row already won]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED plays a low-value card in row 0 to begin contest]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedLow with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[Board state after RED plays low card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueHigh with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE plays a high-value card in the same row to win it]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED preparing to respond with MaximizeRowScoreStrategy]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy selects the best move to regain lead in a contested row]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED has only one unaffordable card in hand]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getCard() at (1,1)
+getCellAt(1,1)
+getOwner() at (1,1)
+getCellAt(1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getCard() at (1,2)
+getCellAt(1,2)
+getOwner() at (1,2)
+getCellAt(1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getCard() at (1,3)
+getCellAt(1,3)
+getOwner() at (1,3)
+getCellAt(1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getCard() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getWidth()
+getHeight()
+getRowScores(2)
+getWidth()
+getCellAt(2,0)
+getCard() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getCard() at (2,1)
+getCellAt(2,1)
+getOwner() at (2,1)
+getCellAt(2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getCard() at (2,2)
+getCellAt(2,2)
+getOwner() at (2,2)
+getCellAt(2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getCard() at (2,3)
+getCellAt(2,3)
+getOwner() at (2,3)
+getCellAt(2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getCard() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+---------------------------------
+[Strategy detects no valid moves and opts to pass]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedVal2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED places a moderate card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueVal5 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE overpowers RED in the same row]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED must now avoid the losing row and fallback to another]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy chooses a fallback row when no clear win is possible]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedBig with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED plays a strong card and secures row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED's turn again with row 0 already secured]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy avoids wasting resources on a row already won]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED plays a low-value card in row 0 to begin contest]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedLow with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[Board state after RED plays low card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueHigh with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE plays a high-value card in the same row to win it]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED preparing to respond with MaximizeRowScoreStrategy]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy selects the best move to regain lead in a contested row]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+---------------------------------
+[RED has only one unaffordable card in hand]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getOwner() at (0,0)
+getCellAt(0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getCellAt(0,4)
+getOwner() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getCard() at (1,1)
+getCellAt(1,1)
+getOwner() at (1,1)
+getCellAt(1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getCard() at (1,2)
+getCellAt(1,2)
+getOwner() at (1,2)
+getCellAt(1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getCard() at (1,3)
+getCellAt(1,3)
+getOwner() at (1,3)
+getCellAt(1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getCard() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getCellAt(1,4)
+getOwner() at (1,4)
+getWidth()
+getHeight()
+getRowScores(2)
+getWidth()
+getCellAt(2,0)
+getCard() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getOwner() at (2,0)
+getCellAt(2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getCard() at (2,1)
+getCellAt(2,1)
+getOwner() at (2,1)
+getCellAt(2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getCard() at (2,2)
+getCellAt(2,2)
+getOwner() at (2,2)
+getCellAt(2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getCard() at (2,3)
+getCellAt(2,3)
+getOwner() at (2,3)
+getCellAt(2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getCard() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getCellAt(2,4)
+getOwner() at (2,4)
+getWidth()
+getHeight()
+getHeight()
+getWidth()
+getCellAt(0,0)
+getOwner() at (0,0)
+getOwner() at (0,0)
+getCard() at (0,0)
+getPawns() at (0,0)
+getWidth()
+getCellAt(0,1)
+getOwner() at (0,1)
+getCard() at (0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getOwner() at (0,2)
+getCard() at (0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getOwner() at (0,3)
+getCard() at (0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getOwner() at (0,4)
+getOwner() at (0,4)
+getCard() at (0,4)
+getPawns() at (0,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(1,0)
+getOwner() at (1,0)
+getOwner() at (1,0)
+getCard() at (1,0)
+getPawns() at (1,0)
+getWidth()
+getCellAt(1,1)
+getOwner() at (1,1)
+getCard() at (1,1)
+getPawns() at (1,1)
+getWidth()
+getCellAt(1,2)
+getOwner() at (1,2)
+getCard() at (1,2)
+getPawns() at (1,2)
+getWidth()
+getCellAt(1,3)
+getOwner() at (1,3)
+getCard() at (1,3)
+getPawns() at (1,3)
+getWidth()
+getCellAt(1,4)
+getOwner() at (1,4)
+getOwner() at (1,4)
+getCard() at (1,4)
+getPawns() at (1,4)
+getWidth()
+getHeight()
+getWidth()
+getCellAt(2,0)
+getOwner() at (2,0)
+getOwner() at (2,0)
+getCard() at (2,0)
+getPawns() at (2,0)
+getWidth()
+getCellAt(2,1)
+getOwner() at (2,1)
+getCard() at (2,1)
+getPawns() at (2,1)
+getWidth()
+getCellAt(2,2)
+getOwner() at (2,2)
+getCard() at (2,2)
+getPawns() at (2,2)
+getWidth()
+getCellAt(2,3)
+getOwner() at (2,3)
+getCard() at (2,3)
+getPawns() at (2,3)
+getWidth()
+getCellAt(2,4)
+getOwner() at (2,4)
+getOwner() at (2,4)
+getCard() at (2,4)
+getPawns() at (2,4)
+getWidth()
+getHeight()
+---------------------------------
+[Strategy detects no valid moves and opts to pass]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedVal2 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED places a moderate card in row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+placeCard() by BLUE at (0,4) using card index 0
+-> Card placed: BlueVal5 with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[BLUE overpowers RED in the same row]
+Current Player: BLUE
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED must now avoid the losing row and fallback to another]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getWidth()
+getCellAt(0,0)
+getCard() at (0,0)
+getWidth()
+getCellAt(0,1)
+getCard() at (0,1)
+getCellAt(0,1)
+getOwner() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getCellAt(0,1)
+getPawns() at (0,1)
+getWidth()
+getCellAt(0,2)
+getCard() at (0,2)
+getCellAt(0,2)
+getOwner() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getCellAt(0,2)
+getPawns() at (0,2)
+getWidth()
+getCellAt(0,3)
+getCard() at (0,3)
+getCellAt(0,3)
+getOwner() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getCellAt(0,3)
+getPawns() at (0,3)
+getWidth()
+getCellAt(0,4)
+getCard() at (0,4)
+getWidth()
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy chooses a fallback row when no clear win is possible]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
+placeCard() by RED at (0,0) using card index 2
+-> Card placed: RedBig with cost 1, influence [[X, X, X, X, X], [X, X, X, X, X], [X, X, C, X, X], [X, X, X, X, X], [X, X, X, X, X]]
+[After placeCard]
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+---------------------------------
+[RED plays a strong card and secures row 0]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+---------------------------------
+[RED's turn again with row 0 already secured]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+getHeight()
+getRowScores(0)
+getHeight()
+getRowScores(1)
+getWidth()
+getCellAt(1,0)
+getCard() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getOwner() at (1,0)
+getCellAt(1,0)
+getPawns() at (1,0)
+---------------------------------
+[Strategy avoids wasting resources on a row already won]
+Current Player: RED
+Board Dimensions: 3 x 5
+Row 0 scores: {RED=0, BLUE=0}
+Row 1 scores: {RED=0, BLUE=0}
+Row 2 scores: {RED=0, BLUE=0}
+0 1___1 0
+0 1___1 0
+0 1___1 0
+
+
+
+
